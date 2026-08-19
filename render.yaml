@@ -1,6 +1,7 @@
 services:
-  - type: static
+  - type: web
     name: colaciones-cl
+    runtime: static
     buildCommand: npm run build
     staticPublishPath: dist
     headers:
