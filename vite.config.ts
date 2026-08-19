@@ -18,7 +18,7 @@ export default defineConfig({
       manifest: {
         name: 'colaciones.cl - Cocina de Barrio',
         short_name: 'Colaciones',
-        description: 'Red y vitrina comunitaria geolocalizada para conectar vecinas cocineras con vecinos cercanos en Conchalí.',
+        description: 'Red y vitrina comunitaria geolocalizada para conectar vecinas cocineras con vecinos cercanos.',
         theme_color: '#e05a47',
         background_color: '#FAF8F5',
         display: 'standalone',
