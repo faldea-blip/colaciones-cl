@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: colaciones-cl
+    env: static
+    buildCommand: npm run build
+    publishPath: dist
+    headers:
+      - key: Cache-Control
+        value: public, max-age=0, must-revalidate
+    routes:
+      # Route all traffic to index.html for Single Page App routing
+      - src: /*
+        dest: /index.html
